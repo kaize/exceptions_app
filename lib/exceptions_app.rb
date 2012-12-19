@@ -1,5 +1,9 @@
 require "exceptions_app/version"
 
 module ExceptionsApp
-  # Your code goes here...
+
+  def self.configure
+    yield self
+  end
+
 end
