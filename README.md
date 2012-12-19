@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/kaize/exceptions_app.png)](https://travis-ci.org/kaize/exceptions_app)
+
 # ExceptionsApp
 
 TODO: Write a gem description
