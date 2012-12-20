@@ -1,10 +1,8 @@
-require 'exceptions_app'
-
 module ExceptionsApp
   class Railtie < ::Rails::Railtie
 
     rake_tasks do
-      load 'exceptions_app/rails/rake_tasks.rake'
+      load 'tasks/exceptions_app.rake'
     end
   end
 end
