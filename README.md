@@ -2,7 +2,7 @@
 
 # ExceptionsApp
 
-TODO: Write a gem description
+ExceptionsApp is gem, that provides a simple way of handling exceptions in Rails applications.
 
 ## Installation
 

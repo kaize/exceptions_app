@@ -8,8 +8,8 @@ Gem::Specification.new do |gem|
   gem.version       = ExceptionsApp::VERSION
   gem.authors       = ["Igor Kuznetsov"]
   gem.email         = ["igkuznetsov@gmail.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.description   = %q{exceptions_app is gem, that provides a simple way of handling exceptions in Rails applications.}
+  gem.summary       = %q{exceptions_app provides a simple way of handling exceptions in Rails applications}
   gem.homepage      = "http://github.com/kaize/exceptions_app"
 
   gem.files         = `git ls-files`.split($/)

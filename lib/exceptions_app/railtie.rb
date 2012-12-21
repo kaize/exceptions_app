@@ -1,9 +1,9 @@
 module ExceptionsApp
   class Railtie < ::Rails::Railtie
 
-    initializer "exceptions_app.initializer" do |app|
+    initializer "exceptions_app.install_app" do |app|
       if ExceptionsApp.config.envs.include?(Rails.env)
-        app.exceptions_app = ExceptionsApp::SimpleResponse
+        app.config.exceptions_app = ExceptionsApp::SimpleResponse.new
       end
     end
 
