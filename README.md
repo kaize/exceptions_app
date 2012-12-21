@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/kaize/exceptions_app.png)](https://travis-ci.org/kaize/exceptions_app)
+[![BuildStatus](https://travis-ci.org/kaize/exceptions_app.png?branch=master)](https://travis-ci.org/kaize/exceptions_app)
 
 # ExceptionsApp
 
