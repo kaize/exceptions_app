@@ -7,7 +7,6 @@ Feature: Rake task for generating static pages
     And I cd to "testapp"
     And I add "exceptions_app" from this project as a dependency
     And I successfully run `bundle install`
-    And I successfully run `bundle exec rails g controller Errors not_found internal_error unprocessable_entity`
 
   Scenario: Check the existence of rake task
     When I successfully run `bundle exec rake -T --trace`
