@@ -1,4 +1,5 @@
 [![BuildStatus](https://travis-ci.org/kaize/exceptions_app.png?branch=master)](https://travis-ci.org/kaize/exceptions_app)
+[![Code Climate](https://codeclimate.com/badge.png)](https://codeclimate.com/github/kaize/exceptions_app)
 
 # ExceptionsApp
 
