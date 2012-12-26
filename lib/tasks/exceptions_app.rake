@@ -1,5 +1,3 @@
-require 'action_dispatch/testing/integration'
-
 namespace :gen do
 
   desc "Generate static error pages"
