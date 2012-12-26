@@ -9,7 +9,6 @@ module ExceptionsApp
       status = env["PATH_INFO"][1..-1]
       @headers ||= {}
       statics_path = "#{ExceptionsApp.config.statics_path}/#{status}.html"
-      p statics_path
 
       if File.exists?(statics_path)
         render(status, File.read(statics_path))
