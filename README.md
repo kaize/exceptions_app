@@ -24,6 +24,7 @@ Or install it yourself as:
 ### Configuring
 
 *ExceptionsApp* have method __configure__, that yelds block inside itself. You can change the behaviour by adding this code to **initializers/exceptions_app.rb**
+
 	ExceptionsApp.configure do |config|
 	  config.envs = ["production", "another_production"]
 	  config.errors_path = ["/404"]
