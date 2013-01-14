@@ -8,3 +8,4 @@ gem 'minitest'
 gem 'turn'
 gem 'cucumber'
 gem 'aruba'
+gem 'coveralls', require: false
